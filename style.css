@@ -6,6 +6,7 @@ body{
     background-color: rgb(24,24,24);
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
 }
 p{
     color: white;
@@ -39,6 +40,7 @@ h6{
     height: 786px;
     padding-top: 20px;
     padding-left: 20px;
+    padding-right: 20px;
     
 }
 #searchbar{
@@ -47,6 +49,8 @@ h6{
     background-color: rgb(24,24,24);
     border: 2px solid rgb(50, 50, 50);
     margin-left: 150px;
+    font-size: medium;
+    padding-left: 8px;
     
 }
 #div2{
@@ -56,7 +60,12 @@ h6{
 #searchicon{
     background-color: rgb(50,50,50);
     justify-content: center;
-}
+    height: 38px;
+    width: 70px;
+    position: relative;
+    top: 13px;
+    right: 5px;
+    }
 #invert{
     filter: invert(1);
 }
@@ -81,6 +90,131 @@ h6{
     font-size: smaller;
 }
 #bndtext{
+    background-color: rgb(255, 255, 255);
+    width: 30px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
+#bndtext1{
     background-color: rgb(50,50,50);
-    
+    width: 100px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+#bndtext2{
+    background-color: rgb(50,50,50);
+    width: 30px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+#bndtext3{
+    background-color: rgb(50,50,50);
+    width: 90px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+#bndtext4{
+    background-color: rgb(50,50,50);
+    width: 50px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+#bndtext5{
+    background-color: rgb(50,50,50);
+    width: 90px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+#bndtext6{
+    background-color: rgb(50,50,50);
+    width: 40px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+#bndtext7{
+    background-color: rgb(50,50,50);
+    width: 80px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+#bndtext8{
+    background-color: rgb(50,50,50);
+    width: 40px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+#bndtext9{
+    background-color: rgb(50,50,50);
+    width: 80px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+#bndtext10{
+    background-color: rgb(50,50,50);
+    width: 160px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+#bndtext11{
+    background-color: rgb(50,50,50);
+    width: 80px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.leftbar{
+    margin-top: 5px;
+}
+#leftbarrow1{
+    border-bottom: 2px solid rgb(50,50,50);
+    padding-bottom: 20px;
+}
+#youtubelogo{
+    padding-left: 20px;
+}
+h3{
+    color: rgb(140,140,140);
+    font-size: medium;
+}
+#leftbarrow2{
+    border-bottom: 2px solid rgb(50,50,50);
+    padding-bottom: 20px;
+}
+
+.upload{
+margin-left: 110px;
+position: relative;
+top: 13px;
+}
+.more{
+    margin-left: 30px;
+    position: relative;
+    top: 13px;
+}
+.notif{
+    margin-left: 30px;
+    position: relative;
+    top: 13px;
+}
+.pfp{
+    margin-left: 30px;
+    position: relative;
+    top: 13px;
+}
+.voicesearch{
+    margin-left: 30px;
+    position: relative;
+    top: 13px;
 }
