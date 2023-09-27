@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(24,24,24);
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    color: white;
+}
+#egdiv{
+    display: flex;
+}
+#rec1{
+display: flex;
+}
+h6{
+   color: rgb(128,128,128);
+   width: 266px;
+   height: 20px;
+}
+#test{
+    float: right;
+}
+.row1{
+    display: flex;
+}
+.row2{
+    display: flex;
+}
+.row3{
+    display: flex;
+}
+#a{
+    background-color: rgb(33,33,33);
+    width: 250px;
+    height: 786px;
+    padding-top: 20px;
+    padding-left: 20px;
+    
+}
+#searchbar{
+    width: 550px;
+    height: 38px;
+    background-color: rgb(24,24,24);
+    border: 2px solid rgb(50, 50, 50);
+    margin-left: 150px;
+    
+}
+#div2{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+#searchicon{
+    background-color: rgb(50,50,50);
+    justify-content: center;
+}
+#invert{
+    filter: invert(1);
+}
+#egdiv{
+    border-top: 2px solid rgb(50, 50, 50);
+    border-bottom: 2px solid rgb(50, 50, 50);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.thumbnail{
+    margin-bottom: 7px;
+}
+#rowdiv{
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+h6{
+    font-weight: lighter;
+    font-size: smaller;
+}
+#bndtext{
+    background-color: rgb(50,50,50);
+    
+}
